@@ -10,7 +10,7 @@ resource webApp 'Microsoft.Web/sites@2023-01-01' = {
   name:  web_app_name
   location: location
   properties: {
-    httpsOnly: true
+    httpsOnly: false
     serverFarmId: hosting_plan_id
     siteConfig: {
       linuxFxVersion: linux_fx_version

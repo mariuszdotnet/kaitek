@@ -4,3 +4,8 @@ az deployment sub create `
     --name kaitek_deployment_01 `
     --location CanadaCentral `
     --template-file main.bicep
+
+az deployment sub create --what-if `
+    --name kaitek_deployment_01 `
+    --location CanadaCentral `
+    --template-file main.bicep
